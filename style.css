@@ -43,6 +43,8 @@ h1 {
 	color: #212121;
 	border: none;
 	border-radius: 7px;
+	gap: 15px;
+	
 }
 #date-input:hover {
 	cursor: text;
