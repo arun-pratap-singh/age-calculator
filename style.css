@@ -6,7 +6,23 @@
 }
 body {
 	background-color: #212121;
+	padding: 50px;
 }
+
+.icon {
+	height: auto;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon img {
+	height: 80px;
+	width: 80px;
+}
+
+
 .container {
 	height: 90vh;
 	width: 100%;
