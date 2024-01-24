@@ -3,20 +3,23 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="icon.jpg" type="image/x-icon" sizes="32x32"/ />
+		<link rel="icon" href="icon.jpg" type="image/x-icon" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Age Calculator</title>
 	</head>
 	<body>
+		<div class="icon">
+			<img src="./images/icon.jpg" title="Age Calculator" />
+		</div>
 		<div class="container">
 			<div class="card">
 				<h1>Age Calculator</h1>
-				<label class="label" for="birthdate">Enter Your Birth-Date:</label
+				<label class="label" for="birthdate">Enter the Birth-Date:</label
 				><br />
 				<div class="input">
-					<input type="date" id="date-input" /><br />
+					<input type="date" id="date-input" title="Enter the Date of Birth" /><br />
 					<button id="calculate" onclick="ageCalculate()">Calculate</button>
-					<button id="reset" onclick="resetForm()">Reset</button>
+					<button id="reset" title="Reset the Date-Input" onclick="resetForm()">Reset</button>
 				</div>
 				<div class="result">
 					<div>
