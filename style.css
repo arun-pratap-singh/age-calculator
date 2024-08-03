@@ -45,9 +45,10 @@ h1 {
 	padding: 10px 30px;
 	font-size: 18px;
 	color: #212121;
-	border: none;
+	border: 1px solid #ccc;
 	border-radius: 2px;
-	gap: 10px;
+	width: 70%;
+	box-sizing: border-box;
 }
 #date-input:hover {
 	cursor: text;
