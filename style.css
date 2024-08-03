@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+	background-color: #6b8a7a;
+	min-width: 400px;
+}
+
+.container {
+	height: fit-content;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card {
+	background-color: #254336;
+	height: auto;
+	width: 22rem;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 50px;
+}
+
+h1 {
+	margin: 10px 0 35px 0;
+	color: #d7ddff;
+	cursor: default;
+	letter-spacing: 1px;
+}
+.label {
+	color: #ffffff;
+	font-size: 20px;
+}
+.input {
+	margin: 10px auto;
+}
+#date-input {
+	letter-spacing: 2px;
+	padding: 10px 30px;
+	font-size: 18px;
+	color: #212121;
+	border: none;
+	border-radius: 2px;
+	gap: 10px;
+}
+#date-input:hover {
+	cursor: text;
+}
+#calculate,
+#reset {
+	background-color: #1f372d;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 2px;
+	margin: 15px 0 15px 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	letter-spacing: 1px;
+}
+#calculate:hover {
+	cursor: pointer;
+	background-color: #d7ddff;
+	transition: all 0.5s ease-in-out;
+	color: #1f372d;
+	border: 1px solid #d7ddff;
+}
+
+#reset:hover {
+	background-color: #c90000;
+	cursor: pointer;
+	border: 1px solid #c90000;
+	color: #d7ddff;
+	transition: all 0.5s ease-in-out;
+}
+
+.result {
+	width: 100%;
+	display: flex;
+	padding: 20px 20px;
+	gap: 35px;
+}
+
+.result div {
+	height: 4.5rem;
+	width: 5rem;
+	background-color: #1f372d;
+	border-radius: 2px;
+	border: 1px #1f372d;
+	display: grid;
+	place-items: center;
+}
+
+p {
+	color: aliceblue;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+}
+
+#years,
+#months,
+#days {
+	padding-top: 5px;
+	color: aliceblue;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
